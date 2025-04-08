@@ -1,1 +1,1 @@
-# material-stock-analysis
+This repository contains all scripts, data, and documentation related to the master's thesis on mapping material stocks in Norwegian municipalities and estimating associated carbon emissions from material production and manufacturing. 
