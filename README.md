@@ -1,4 +1,4 @@
-# Material Stock And GHG Emissions Analysis Notebooks
+# Material Stock and GHG Emissions Analysis Notebooks
 
 This repository hosts a set of Jupyter notebooks developed for the assessment and analysis of material stocks and embodied CO₂ emissions, as well as their visualization and statistical evaluation. These notebooks are designed to work together, with outputs from the **material stock and emissions assessment** forming the basis for subsequent visualization and statistical analysis. 
 
