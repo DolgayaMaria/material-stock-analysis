@@ -29,6 +29,28 @@ The objective of this repository is to provide a transparent and reproducible wo
 
 ---
 
+## Data Requirements
+
+### 1. Municipality shapefiles
+- Files: .shp, .dbf, .shx, etc.
+- Coordinate system: EPSG:4326
+- Required attributes:
+  - kommunenum — municipality code (string, zero-padded to 4 digits)
+  - kommunenav — municipality name
+  - geometry — polygon geometry
+
+### 2. Merged CSV with data
+- File name: 
+- Structure: One row per combination of municipality, material, energy carrier, building type and cohort.
+- Required columns:
+  - kommunenum (municipality code) — string, zero-padded to 4 digits
+  - energy_carrier — e.g. "TOTAL", "electricity", etc.
+  - material — e.g. "TOTAL", "steel", "concrete", etc.
+  - type — building type (e.g. single-family house (SFH), apartment block (AB))
+  - cohort — year or cohort label
+
+---
+
 ## Prerequisites
 
 - **Python** 3.11.5 or higher  
