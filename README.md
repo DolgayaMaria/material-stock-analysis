@@ -90,5 +90,6 @@ your-project-root/
 
 - Ensure all required datasets are placed in the `/data` folder or update paths in the notebooks accordingly.
 - If your files are located in different directories, update the file paths in the notebooks to match your local folder structure.
-- Outputs such as processed CSVs, figures, and statistical tables can be saved in the `/outputs` folder for organization.  
+- Outputs such as processed CSVs, figures, and statistical tables can be saved in the `/outputs` folder for organization.
+- 'kommunenum' column can be renamed to match the language of the country of interest
 
