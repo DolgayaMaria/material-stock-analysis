@@ -31,110 +31,112 @@ The objective of this repository is to provide a transparent and reproducible wo
 
 ## Data Requirements
 
-### For `material_stock_and_emissions_assessment.ipynb`
+#### For `material_stock_and_emissions_assessment.ipynb`
 
 - **Average heated floor area per archetype dwelling**  
   *File:* `Sandberg_2017_Table_B1`  
-  *Columns:* `archetype`, `average_area`  
+  *Attributes:* `archetype`, `average_area`  
 
 - **Existing building stocks (residential buildings), by municipality, archetype**  
   *File:* `ssb_03175_2024_raw`  
-  *Columns:* `kommunenum`, `archetype` (each per column)  
+  *Attributes:* `kommunenum`, `archetype` (each per column)  
 
 - **Dwellings, by municipality, archetype**  
   *File:* `ssb_06266_2024_full`  
-  *Columns:* `kommunenum`, `archetype` (each per column)  
+  *Attributes:* `kommunenum`, `archetype` (each per column)  
 
 - **Dwellings, by municipality, other types**  
   *File:* `ssb_06266_other`  
-  *Columns:* `kommunenum`, other building types (each per column)  
+  *Attributes:* `kommunenum`, other building types (each per column)  
 
 - **Average heated floor area per archetype building**  
   *File:* `archetypes_areas_Amini_2025_archetypes_average_area`  
-  *Columns:* `archetype`, `DB_area`  
+  *Attributes:* `archetype`, `DB_area`  
 
 - **Average material inventory per archetype building**  
   *File:* `mi_no_updated_Amini_2025_material_inventory`  
-  *Columns:* `archetype`, `material type`, `value`  
+  *Attributes:* `archetype`, `material type`, `value`  
 
 - **Dwelling manufacturing energy intensity per building type**  
   *File:* `4_EI_ManufacturingEnergyIntensity_V2.2`  
-  *Columns:* `manufacturing_building_type`, `energy_carriers`, `value`  
+  *Attributes:* `manufacturing_building_type`, `energy_carriers`, `value`  
 
 - **Direct emission factors per energy carrier**  
   *File:* `6_PR_DirectEmissions_V1.2`  
-  *Columns:* `energy_carrier`, `value`  
+  *Attributes:* `energy_carrier`, `value`  
 
 - **GWP100 from material production per material type**  
   *File:* `4_PE_ProcessExtensions_Materials_VN1.0`  
-  *Columns:* `material_type`, `GWP100`  
+  *Attributes::* `material_type`, `GWP100`
+
+- **Municipality (or other NUTS unit) shapefiles OR .gpkg**
+  *Files:* .shp, .dbf, .shx, etc. OR .gpkg
+  *Coordinate system:* EPSG:4326
+  *Attributes:* 'kommunenum', 'kommunenav', 'geometry'
 
 ---
 
-### For `plotting_and_visualizations.ipynb`
+#### For `plotting_and_visualizations.ipynb`
 
-- **Material stock per municipality, material type, archetype (kg)**  
+- **Material stock per municipality, material type, archetype (kg) (output dataset from `material_stock_and_emissions_assessment.ipynb`)**  
   *File:* `material_stock_agg`  
-  *Columns:* `kommunenum`, `type`, `cohort`, `material_type`, `material_stock_mean`, `material_stock_min`, `material_stock_max`, `material_stock_std`  
+  *Attributes:* `kommunenum`, `type`, `cohort`, `material_type`, `material_stock_mean`, `material_stock_min`, `material_stock_max`, `material_stock_std`  
 
-- **Emissions from material per municipality, material type, archetype (kg CO₂-e)**  
+- **Emissions from material per municipality, material type, archetype (kg CO₂-e) (output dataset from `material_stock_and_emissions_assessment.ipynb`)**  
   *File:* `production_ms_emissions_agg`  
-  *Columns:* `kommunenum`, `type`, `cohort`, `material_type`, `material_emissions_mean`, `material_emissions_min`, `material_emissions_max`, `material_emissions_std`  
+  *Attributes:* `kommunenum`, `type`, `cohort`, `material_type`, `material_emissions_mean`, `material_emissions_min`, `material_emissions_max`, `material_emissions_std`  
 
-- **Emissions from dwelling manufacturing per municipality, building type, energy carrier (kg CO₂-e)**  
+- **Emissions from dwelling manufacturing per municipality, building type, energy carrier (kg CO₂-e) (output dataset from `material_stock_and_emissions_assessment.ipynb`)**  
   *File:* `manufacturing_emissions_agg`  
-  *Columns:* `kommunenum`, `type`, `energy_carrier`, `manufacturing_emissions_mean`, `manufacturing_emissions_min`, `manufacturing_emissions_max`, `manufacturing_emissions_std`  
+  *Attributes:* `kommunenum`, `type`, `energy_carrier`, `manufacturing_emissions_mean`, `manufacturing_emissions_min`, `manufacturing_emissions_max`, `manufacturing_emissions_std`  
 
-- **Total emissions per municipality, building type and cohort (kg CO₂-e)**  
+- **Total emissions per municipality, building type and cohort (kg CO₂-e) (output dataset from `material_stock_and_emissions_assessment.ipynb`)**  
   *File:* `summary_df`  
-  *Columns:* `kommunenum`, `type`, `cohort`, `total_mean`, `total_std`  
+  *Attributes:* `kommunenum`, `type`, `cohort`, `total_mean`, `total_std`  
 
-- **Total heated floor area per municipality, archetype (m²)**  
+- **Total heated floor area per municipality, archetype (m²) (output dataset from `material_stock_and_emissions_assessment.ipynb`)**  
   *File:* `total_heated_area_melted`  
-  *Columns:* `kommunenum`, `archetype`, `total_heated_area`  
-
-- **Shapefiles or geopackages** containing municipalities or other NUT unit masks  
+  *Attributes:* `kommunenum`, `archetype`, `total_heated_area`  
 
 - **Population per municipality**  
   *File:* `01222_20250626-164638_ssb_01222_population_2024`  
-  *Columns:* `kommunenum`, `population`  
+  *Attributes:* `kommunenum`, `population`
+
+- **Municipality (or other NUTS unit) shapefiles OR .gpkg**
+  *Files:* .shp, .dbf, .shx, etc. OR .gpkg
+  *Coordinate system:* EPSG:4326
+  *Attributes:* 'kommunenum', 'kommunenav', 'geometry'
 
 ---
 
-### For `statistical_analysis.ipynb`
+#### For `statistical_analysis.ipynb`
 
-- **Material stock per municipality, material type, archetype (kg)**  
+- **Material stock per municipality, material type, archetype (kg) (output dataset from `material_stock_and_emissions_assessment.ipynb`)**  
   *File:* `material_stock_agg`  
-  *Columns:* `kommunenum`, `type`, `cohort`, `material_type`, `material_stock_mean`, `material_stock_min`, `material_stock_max`, `material_stock_std`  
+  *Attributes:* `kommunenum`, `type`, `cohort`, `material_type`, `material_stock_mean`, `material_stock_min`, `material_stock_max`, `material_stock_std`  
 
-- **Total emissions per municipality, building type and cohort (kg CO₂-e)**  
+- **Total emissions per municipality, building type and cohort (kg CO₂-e) (output dataset from `material_stock_and_emissions_assessment.ipynb`)**  
   *File:* `summary_df`  
-  *Columns:* `kommunenum`, `type`, `cohort`, `total_mean`, `total_std`  
+  *Attributes:* `kommunenum`, `type`, `cohort`, `total_mean`, `total_std`  
 
 - **Population per municipality**  
   *File:* `01222_20250626-164638_ssb_01222_population_2024`  
-  *Columns:* `kommunenum`, `population`  
+  *Attributes:* `kommunenum`, `population`  
 
 - **Urban settlements area (km²)**  
   *File:* `14216_20250825-202054_ssb_14216_urban_settlements_area_2024`  
-  *Columns:* `kommunenum`, `urban_area_km2`  
+  *Attributes:* `kommunenum`, `urban_area_km2`  
 
 - **GDP per municipality**  
   *File:* `Regional accounts, figures per inhabitant and per employed person. Regional value added is measured in basic value._ssb_gdp_counties_2024`  
-  *Columns:* `kommunenum`, `GDP per inhabitant`  
+  *Attributes:* `kommunenum`, `GDP per inhabitant`  
 
 - **Persons having education level per municipality**  
   *File:* `ssb_09429_2024`  
-  *Columns:* `kommunenum`, `education_level` (each per column)
+  *Attributes:* `kommunenum`, `education_level` (each per column)
 
-### 1. Municipality (or other NUTS unit) shapefiles
-- Files: .shp, .dbf, .shx, etc.
-- Coordinate system: EPSG:4326
-- Required attributes:
-  - kommunenum — municipality code (string, zero-padded to 4 digits)
-  - kommunenav — municipality name
-  - geometry — polygon geometry
 
+---
 
 ## Prerequisites
 
@@ -176,5 +178,5 @@ your-project-root/
 - Ensure all required datasets are placed in the `/data` folder or update paths in the notebooks accordingly.
 - If your files are located in different directories, update the file paths in the notebooks to match your local folder structure.
 - Outputs such as processed CSVs, figures, and statistical tables can be saved in the `/outputs` folder for organization.
-- 'kommunenum' and 'kommunenav' columns can be renamed to match the language of the country of interest
+- 'kommunenum' (municipality code) and 'kommunenav' (municipality name) columns can be renamed to match the language of the country of interest
 
