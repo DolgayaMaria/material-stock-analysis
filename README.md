@@ -31,7 +31,7 @@ The objective of this repository is to provide a transparent and reproducible wo
 
 ## Data Requirements
 
-### 1. Municipality shapefiles
+### 1. Municipality (or other NUT unit) shapefiles
 - Files: .shp, .dbf, .shx, etc.
 - Coordinate system: EPSG:4326
 - Required attributes:
