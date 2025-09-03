@@ -6,7 +6,7 @@ This repository hosts a set of Jupyter notebooks developed for the assessment an
 
 ## Objectives
 
-The objective of this repository is to provide a transparent and reproducible workflow for analyzing material stocks and associated emissions, generating plots and visualizations for communication and performing statistical analysis to support academic research and thesis work.
+The objective of this repository is to provide a transparent and reproducible workflow for analyzing material stocks and associated emissions, generating plots and visualizations for communication and performing statistical analysis to support academic research and thesis work. The framework is designed with flexibility in mind and can also be adapted for further analyses in other countries, NUTS levels, building archetypes or material types. 
 
 ---
 
