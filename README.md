@@ -69,10 +69,10 @@ The objective of this repository is to provide a transparent and reproducible wo
   *File:* `4_PE_ProcessExtensions_Materials_VN1.0`  
   *Attributes::* `material_type`, `GWP100`
 
-- **Municipality (or other NUTS unit) shapefiles OR .gpkg**
-  *Files:* .shp, .dbf, .shx, etc. OR .gpkg
-  *Coordinate system:* EPSG:4326
-  *Attributes:* 'kommunenum', 'kommunenav', 'geometry'
+- **Municipality (or other NUTS unit) shapefiles OR .gpkg**  
+  *Files:* .shp, .dbf, .shx, etc. OR .gpkg <br>
+  *Coordinate system:* EPSG:4326 <br>
+  *Attributes:* `kommunenum`, `kommunenav`, `geometry`
 
 ---
 
@@ -102,10 +102,10 @@ The objective of this repository is to provide a transparent and reproducible wo
   *File:* `01222_20250626-164638_ssb_01222_population_2024`  
   *Attributes:* `kommunenum`, `population`
 
-- **Municipality (or other NUTS unit) shapefiles OR .gpkg**
-  *Files:* .shp, .dbf, .shx, etc. OR .gpkg
-  *Coordinate system:* EPSG:4326
-  *Attributes:* 'kommunenum', 'kommunenav', 'geometry'
+- **Municipality (or other NUTS unit) shapefiles OR .gpkg**  
+  *Files:* .shp, .dbf, .shx, etc. OR .gpkg <br>
+  *Coordinate system:* EPSG:4326 <br>
+  *Attributes:* `kommunenum`, `kommunenav`, `geometry`
 
 ---
 
@@ -158,7 +158,7 @@ your-project-root/
 ├── plotting_and_visualizations.ipynb              # Visualization and plotting notebook
 ├── statistical_analysis.ipynb                     # Statistical analysis notebook
 ├── data/                                         # Input datasets (place your files here)
-├── outputs/                                      # (Optional) Results, figures, and tables
+├── outputs/                                      # (Optional) Results, figures and tables
 ├── requirements.txt                              # (Optional) List of required Python packages
 └── README.md                                     # Project documentation
 ```
