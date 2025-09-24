@@ -34,52 +34,52 @@ The objective of this repository is to provide a transparent and reproducible wo
 #### For `material_stock_and_emissions_assessment.ipynb`
 
 - **Average heated floor area per archetype dwelling**  
-  *File:* `Sandberg_2017_Table_B1`  
+  *File:* `Sandberg_2017_Table_B1` (Sandberg et al. 2017)  
   *Accessed:* November 2024  
   *Attributes:* `archetype`, `average_area`   
 
 - **Existing building stocks (residential buildings), by municipality, archetype**  
-  *File:* `ssb_03175_2024_raw`  
+  *File:* `ssb_03175_2024_raw` (SSB 03175 2025)  
   *Accessed:* November 2024  
   *Attributes:* `kommunenum`, `archetype` (each per column)  
 
 - **Dwellings, by municipality, archetype**  
-  *File:* `ssb_06266_2024_full`  
+  *File:* `ssb_06266_2024_full` (SSB 06266 2025)  
   *Accessed:* November 2024  
   *Attributes:* `kommunenum`, `archetype` (each per column)  
 
 - **Dwellings, by municipality, other types**  
-  *File:* `ssb_06266_other`  
+  *File:* `ssb_06266_other` (SSB 06266 2025)  
   *Accessed:* November 2024  
   *Attributes:* `kommunenum`, other building types (each per column)  
 
 - **Average heated floor area per archetype building**  
-  *File:* `archetypes_areas`  
+  *File:* `archetypes_areas` (Amini et al. 2025)  
   *Accessed:* November 2024   
   *Attributes:* `archetype`, `DB_area`  
 
 - **Average material inventory per archetype building**  
-  *File:* `mi_no_updated`  
+  *File:* `mi_no_updated` (Amini et al. 2025)  
   *Accessed:* November 2024  
   *Attributes:* `archetype`, `material type`, `value`  
 
 - **Dwelling manufacturing energy intensity per building type**  
-  *File:* `4_EI_ManufacturingEnergyIntensity_V2.2`  
+  *File:* `4_EI_ManufacturingEnergyIntensity_V2.2` (Pauliuk et al. 2021; Pauliuk 2024)  
   *Accessed:* March 2025  
   *Attributes:* `manufacturing_building_type`, `energy_carriers`, `value`  
 
 - **Direct emission factors per energy carrier**  
-  *File:* `6_PR_DirectEmissions_V1.2`  
+  *File:* `6_PR_DirectEmissions_V1.2` (Pauliuk et al. 2021; Pauliuk 2024)  
   *Accessed:* March 2025   
   *Attributes:* `energy_carrier`, `value`  
 
 - **GWP100 from material production per material type**  
-  *File:* `4_PE_ProcessExtensions_Materials_VN1.0`  
+  *File:* `4_PE_ProcessExtensions_Materials_VN1.0` (Pauliuk et al. 2021; Pauliuk 2024)  
   *Accessed:* March 2025    
   *Attributes::* `material_type`, `GWP100`
 
 - **Municipality (or other NUTS unit) shapefiles OR .gpkg**  
-  *Files:* .shp, .dbf, .shx, etc. OR .gpkg <br>
+  *Files:* .shp, .dbf, .shx, etc. OR .gpkg (SSB Kart 2025; GEONORGE 2025) <br>
   *Coordinate system:* EPSG:4326 <br>
   *Accessed:* March 2025  
   *Attributes:* `kommunenum`, `kommunenav`, `geometry`
@@ -109,12 +109,12 @@ The objective of this repository is to provide a transparent and reproducible wo
   *Attributes:* `kommunenum`, `archetype`, `total_heated_area`  
 
 - **Population per municipality**  
-  *File:* `01222_20250626-164638`  
+  *File:* `01222_20250626-164638` (SSB Population 2025)  
   *Accessed:* 26.06.2025   
   *Attributes:* `kommunenum`, `population`
 
 - **Municipality (or other NUTS unit) shapefiles OR .gpkg**  
-  *Files:* .shp, .dbf, .shx, etc. OR .gpkg <br>
+  *Files:* .shp, .dbf, .shx, etc. OR .gpkg (SSB Kart 2025; GEONORGE 2025) <br>
   *Coordinate system:* EPSG:4326 <br>
   *Accessed:* March 2025   
   *Attributes:* `kommunenum`, `kommunenav`, `geometry`
@@ -132,22 +132,22 @@ The objective of this repository is to provide a transparent and reproducible wo
   *Attributes:* `kommunenum`, `type`, `cohort`, `total_mean`, `total_std`  
 
 - **Population per municipality**  
-  *File:* `01222_20250626-164638`  
+  *File:* `01222_20250626-164638` (SSB Population 2025)  
   *Accessed:* 26.06.2025     
   *Attributes:* `kommunenum`, `population`  
 
 - **Urban settlements area (km²)**  
-  *File:* `14216_20250825-202054`  
+  *File:* `14216_20250825-202054` (SSB 14216 2025)  
   *Accessed:* 25.08.2025   
   *Attributes:* `kommunenum`, `urban_area_km2`  
 
 - **GDP per municipality**  
-  *File:* `Regional accounts, figures per inhabitant and per employed person. Regional value added is measured in basic value.`  
+  *File:* `Regional accounts, figures per inhabitant and per employed person. Regional value added is measured in basic value.` (SSB Regional Accounts 2025)  
   *Accessed:* June 2025   
   *Attributes:* `kommunenum`, `GDP per inhabitant`  
 
 - **Persons having education level per municipality**  
-  *File:* `ssb_09429_2024`  
+  *File:* `ssb_09429_2024` (SSB 09429 2025)  
   *Accessed:* June 2025   
   *Attributes:* `kommunenum`, `education_level` (each per column)
 
@@ -195,4 +195,23 @@ your-project-root/
 - If your files are located in different directories, update the file paths in the notebooks to match your local folder structure.
 - Outputs such as processed CSVs, figures, and statistical tables can be saved in the `/outputs` folder for organization.
 - 'kommunenum' (municipality code) and 'kommunenav' (municipality name) columns can be renamed to match the language of the country of interest
+
+
+---
+
+## References
+
+Amini, Sara, Lola Rousseau, and Edgar Hertwich. 2024. “Material and Energy Use in Norway’s Residential Building Archetypes.” SocArXiv, SocArXiv, November 15, emsa4. https://ideas.repec.org//p/osf/socarx/emsa4.html.  
+Norske Fylker Og Kommuner Illustrasjonsdata 2024 (Klippet Etter Kyst) - Kartkatalogen. 2024. https://kartkatalog.geonorge.no/metadata/norske-fylker-og-kommuner-illustrasjonsdata-2024-klippet-etter-kyst/a9c64d66-f484-4a8f-a7b4-723fdaa578d3.  
+Pauliuk, Stefan. 2024. “Input Data and Results of the RECC v2.5 Model for the Transformation Scenarios of the Global Building Stock.” Version 1.0. Zenodo, July 16. https://doi.org/10.5281/zenodo.12752350.  
+Pauliuk, Stefan, Niko Heeren, Peter Berrill, et al. 2021. Database of the ODYM-RECC v2.4 Model, Used for the GLOBAL Case Study on Material Efficiency and Climate Change Mitigation. Zenodo, released April 8. https://zenodo.org/records/4671644.  
+Sandberg, Nina Holck, Igor Sartori, Magnus I. Vestrum, and Helge Brattebø. 2017. “Using a Segmented Dynamic Dwelling Stock Model for Scenario Analysis of Future Energy Demand: The Dwelling Stock of Norway 2016–2050.” Energy and Buildings 146 (July): 220–32. https://doi.org/10.1016/j.enbuild.2017.04.016.  
+SSB 03175: Existing Building Stocks. 2025. “03175: Existing Building Stocks. Residential Buildings, by Type of Building (M) 2001 - 2025. Statbank Norway.” https://www.ssb.no/en/statbank/table/03175.  
+SSB 06266: Dwellings, by Type of Building and Year of Construction. 2025. “06266: Dwellings, by Type of Building and Year of Construction (M) 2006 - 2025. Statbank Norway.” https://www.ssb.no/en/statbank/table/06266.  
+SSB 14216: Area and Population of Urban Settlements. 2025. “14216: Area and Population of Urban Settlements, by Region, Contents and Year. Statbank Norway.” https://www.ssb.no/en/statbank/table/14216.  
+SSB Educational Attainment of the Population. 2025. “Educational Attainment of the Population. Statbank Norway.” https://www.ssb.no/en/system/.  
+SSB Kart. 2025. “Maps from Statistics Norway.” https://kart.ssb.no/.  
+SSB Population. 2025. “Population.” https://www.ssb.no/en/befolkning/folketall/statistikk/befolkning.  
+SSB Regional Accounts. 2025. “Regional Accounts.” https://www.ssb.no/en/nasjonalregnskap-og-konjunkturer/nasjonalregnskap/statistikk/fylkesfordelt-nasjonalregnskap.  
+
 
