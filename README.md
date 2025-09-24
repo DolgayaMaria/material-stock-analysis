@@ -132,22 +132,22 @@ The objective of this repository is to provide a transparent and reproducible wo
   *Attributes:* `kommunenum`, `type`, `cohort`, `total_mean`, `total_std`  
 
 - **Population per municipality**  
-  *File:* `01222_20250626-164638`
+  *File:* `01222_20250626-164638`  
   *Accessed:* 26.06.2025     
   *Attributes:* `kommunenum`, `population`  
 
 - **Urban settlements area (km²)**  
-  *File:* `14216_20250825-202054`
+  *File:* `14216_20250825-202054`  
   *Accessed:* 25.08.2025   
   *Attributes:* `kommunenum`, `urban_area_km2`  
 
 - **GDP per municipality**  
-  *File:* `Regional accounts, figures per inhabitant and per employed person. Regional value added is measured in basic value._ssb_gdp_counties_2024`
+  *File:* `Regional accounts, figures per inhabitant and per employed person. Regional value added is measured in basic value._ssb_gdp_counties_2024`  
   *Accessed:* June 2025   
   *Attributes:* `kommunenum`, `GDP per inhabitant`  
 
 - **Persons having education level per municipality**  
-  *File:* `ssb_09429_2024`
+  *File:* `ssb_09429_2024`  
   *Accessed:* June 2025   
   *Attributes:* `kommunenum`, `education_level` (each per column)
 
