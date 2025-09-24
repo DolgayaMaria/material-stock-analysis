@@ -202,16 +202,27 @@ your-project-root/
 ## References
 
 Amini, Sara, Lola Rousseau, and Edgar Hertwich. 2024. “Material and Energy Use in Norway’s Residential Building Archetypes.” SocArXiv, SocArXiv, November 15, emsa4. https://ideas.repec.org//p/osf/socarx/emsa4.html.  
+
 Norske Fylker Og Kommuner Illustrasjonsdata 2024 (Klippet Etter Kyst) - Kartkatalogen. 2024. https://kartkatalog.geonorge.no/metadata/norske-fylker-og-kommuner-illustrasjonsdata-2024-klippet-etter-kyst/a9c64d66-f484-4a8f-a7b4-723fdaa578d3.  
+
 Pauliuk, Stefan. 2024. “Input Data and Results of the RECC v2.5 Model for the Transformation Scenarios of the Global Building Stock.” Version 1.0. Zenodo, July 16. https://doi.org/10.5281/zenodo.12752350.  
+
 Pauliuk, Stefan, Niko Heeren, Peter Berrill, et al. 2021. Database of the ODYM-RECC v2.4 Model, Used for the GLOBAL Case Study on Material Efficiency and Climate Change Mitigation. Zenodo, released April 8. https://zenodo.org/records/4671644.  
+
 Sandberg, Nina Holck, Igor Sartori, Magnus I. Vestrum, and Helge Brattebø. 2017. “Using a Segmented Dynamic Dwelling Stock Model for Scenario Analysis of Future Energy Demand: The Dwelling Stock of Norway 2016–2050.” Energy and Buildings 146 (July): 220–32. https://doi.org/10.1016/j.enbuild.2017.04.016.  
+
 SSB 03175: Existing Building Stocks. 2025. “03175: Existing Building Stocks. Residential Buildings, by Type of Building (M) 2001 - 2025. Statbank Norway.” https://www.ssb.no/en/statbank/table/03175.  
+
 SSB 06266: Dwellings, by Type of Building and Year of Construction. 2025. “06266: Dwellings, by Type of Building and Year of Construction (M) 2006 - 2025. Statbank Norway.” https://www.ssb.no/en/statbank/table/06266.  
+
 SSB 14216: Area and Population of Urban Settlements. 2025. “14216: Area and Population of Urban Settlements, by Region, Contents and Year. Statbank Norway.” https://www.ssb.no/en/statbank/table/14216.  
+
 SSB Educational Attainment of the Population. 2025. “Educational Attainment of the Population. Statbank Norway.” https://www.ssb.no/en/system/.  
+
 SSB Kart. 2025. “Maps from Statistics Norway.” https://kart.ssb.no/.  
+
 SSB Population. 2025. “Population.” https://www.ssb.no/en/befolkning/folketall/statistikk/befolkning.  
+
 SSB Regional Accounts. 2025. “Regional Accounts.” https://www.ssb.no/en/nasjonalregnskap-og-konjunkturer/nasjonalregnskap/statistikk/fylkesfordelt-nasjonalregnskap.  
 
 
