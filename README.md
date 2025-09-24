@@ -34,7 +34,8 @@ The objective of this repository is to provide a transparent and reproducible wo
 #### For `material_stock_and_emissions_assessment.ipynb`
 
 - **Average heated floor area per archetype dwelling**  
-  *File:* `Sandberg_2017_Table_B1`  
+  *File:* `Sandberg_2017_Table_B1`
+  *Accessed:* November 2024
   *Attributes:* `archetype`, `average_area`  
 
 - **Existing building stocks (residential buildings), by municipality, archetype**  
