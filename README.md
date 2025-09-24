@@ -142,7 +142,7 @@ The objective of this repository is to provide a transparent and reproducible wo
   *Attributes:* `kommunenum`, `urban_area_km2`  
 
 - **GDP per municipality**  
-  *File:* `Regional accounts, figures per inhabitant and per employed person. Regional value added is measured in basic value._ssb_gdp_counties_2024`  
+  *File:* `Regional accounts, figures per inhabitant and per employed person. Regional value added is measured in basic value.`  
   *Accessed:* June 2025   
   *Attributes:* `kommunenum`, `GDP per inhabitant`  
 
