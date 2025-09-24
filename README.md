@@ -45,35 +45,43 @@ The objective of this repository is to provide a transparent and reproducible wo
 
 - **Dwellings, by municipality, archetype**  
   *File:* `ssb_06266_2024_full`  
+  *Accessed:* November 2024  
   *Attributes:* `kommunenum`, `archetype` (each per column)  
 
 - **Dwellings, by municipality, other types**  
   *File:* `ssb_06266_other`  
+  *Accessed:* November 2024  
   *Attributes:* `kommunenum`, other building types (each per column)  
 
 - **Average heated floor area per archetype building**  
   *File:* `archetypes_areas_Amini_2025_archetypes_average_area`  
+  *Accessed:* November 2024   
   *Attributes:* `archetype`, `DB_area`  
 
 - **Average material inventory per archetype building**  
   *File:* `mi_no_updated_Amini_2025_material_inventory`  
+  *Accessed:* November 2024  
   *Attributes:* `archetype`, `material type`, `value`  
 
 - **Dwelling manufacturing energy intensity per building type**  
   *File:* `4_EI_ManufacturingEnergyIntensity_V2.2`  
+  *Accessed:* March 2025  
   *Attributes:* `manufacturing_building_type`, `energy_carriers`, `value`  
 
 - **Direct emission factors per energy carrier**  
   *File:* `6_PR_DirectEmissions_V1.2`  
+  *Accessed:* March 2025   
   *Attributes:* `energy_carrier`, `value`  
 
 - **GWP100 from material production per material type**  
   *File:* `4_PE_ProcessExtensions_Materials_VN1.0`  
+  *Accessed:* March 2025    
   *Attributes::* `material_type`, `GWP100`
 
 - **Municipality (or other NUTS unit) shapefiles OR .gpkg**  
   *Files:* .shp, .dbf, .shx, etc. OR .gpkg <br>
   *Coordinate system:* EPSG:4326 <br>
+  *Accessed:* March 2025  
   *Attributes:* `kommunenum`, `kommunenav`, `geometry`
 
 ---
