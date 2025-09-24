@@ -39,7 +39,7 @@ The objective of this repository is to provide a transparent and reproducible wo
   *Attributes:* `archetype`, `average_area`   
 
 - **Existing building stocks (residential buildings), by municipality, archetype**  
-  *File:* `ssb_03175_2024_raw`
+  *File:* `ssb_03175_2024_raw`  
   *Accessed:* November 2024  
   *Attributes:* `kommunenum`, `archetype` (each per column)  
 
