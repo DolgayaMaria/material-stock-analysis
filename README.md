@@ -54,12 +54,12 @@ The objective of this repository is to provide a transparent and reproducible wo
   *Attributes:* `kommunenum`, other building types (each per column)  
 
 - **Average heated floor area per archetype building**  
-  *File:* `archetypes_areas_Amini_2025_archetypes_average_area`  
+  *File:* `archetypes_areas`  
   *Accessed:* November 2024   
   *Attributes:* `archetype`, `DB_area`  
 
 - **Average material inventory per archetype building**  
-  *File:* `mi_no_updated_Amini_2025_material_inventory`  
+  *File:* `mi_no_updated`  
   *Accessed:* November 2024  
   *Attributes:* `archetype`, `material type`, `value`  
 
@@ -109,12 +109,14 @@ The objective of this repository is to provide a transparent and reproducible wo
   *Attributes:* `kommunenum`, `archetype`, `total_heated_area`  
 
 - **Population per municipality**  
-  *File:* `01222_20250626-164638_ssb_01222_population_2024`  
+  *File:* `01222_20250626-164638`  
+  *Accessed:* 26.06.2025   
   *Attributes:* `kommunenum`, `population`
 
 - **Municipality (or other NUTS unit) shapefiles OR .gpkg**  
   *Files:* .shp, .dbf, .shx, etc. OR .gpkg <br>
   *Coordinate system:* EPSG:4326 <br>
+  *Accessed:* March 2025   
   *Attributes:* `kommunenum`, `kommunenav`, `geometry`
 
 ---
@@ -130,19 +132,23 @@ The objective of this repository is to provide a transparent and reproducible wo
   *Attributes:* `kommunenum`, `type`, `cohort`, `total_mean`, `total_std`  
 
 - **Population per municipality**  
-  *File:* `01222_20250626-164638_ssb_01222_population_2024`  
+  *File:* `01222_20250626-164638`
+  *Accessed:* 26.06.2025     
   *Attributes:* `kommunenum`, `population`  
 
 - **Urban settlements area (km²)**  
-  *File:* `14216_20250825-202054_ssb_14216_urban_settlements_area_2024`  
+  *File:* `14216_20250825-202054`
+  *Accessed:* 25.08.2025   
   *Attributes:* `kommunenum`, `urban_area_km2`  
 
 - **GDP per municipality**  
-  *File:* `Regional accounts, figures per inhabitant and per employed person. Regional value added is measured in basic value._ssb_gdp_counties_2024`  
+  *File:* `Regional accounts, figures per inhabitant and per employed person. Regional value added is measured in basic value._ssb_gdp_counties_2024`
+  *Accessed:* June 2025   
   *Attributes:* `kommunenum`, `GDP per inhabitant`  
 
 - **Persons having education level per municipality**  
-  *File:* `ssb_09429_2024`  
+  *File:* `ssb_09429_2024`
+  *Accessed:* June 2025   
   *Attributes:* `kommunenum`, `education_level` (each per column)
 
 
