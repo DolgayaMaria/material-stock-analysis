@@ -54,12 +54,12 @@ The objective of this repository is to provide a transparent and reproducible wo
   *Attributes:* `kommunenum`, other building types (each per column)  
 
 - **Average heated floor area per archetype building**  
-  *File:* `archetypes_areas` (Amini et al. 2025)  
+  *File:* `archetypes_areas` (Amini et al. 2024)  
   *Accessed:* November 2024   
   *Attributes:* `archetype`, `DB_area`  
 
 - **Average material inventory per archetype building**  
-  *File:* `mi_no_updated` (Amini et al. 2025)  
+  *File:* `mi_no_updated` (Amini et al. 2024)  
   *Accessed:* November 2024  
   *Attributes:* `archetype`, `material type`, `value`  
 
